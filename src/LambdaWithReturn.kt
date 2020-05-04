@@ -13,7 +13,7 @@ fun main() {
 //        a + b }
 //            Alternate ways to use lambda functions
     objmyclass.sum(4, 8) { a, b -> a + b }     //Both are correct
-    objmyclass.sum(4, 8) { a, b -> a + b }       //Both are corret
+    objmyclass.sum(4, 8, { a, b -> a + b })      //Both are corret
 }
 
 private class Myclas {
